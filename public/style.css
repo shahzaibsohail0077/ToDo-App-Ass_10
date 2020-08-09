@@ -1,0 +1,42 @@
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+.title,.appSection,.list{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.title{
+    color: black;
+    text-shadow: 4px 4px 5px blue;
+    text-align: center;
+    font-size: xx-large;
+}
+.appSection input{
+    font-size: x-large;
+    border: 2px solid;
+    background-color: burlywood;
+    color: black;
+}
+.appSection button,.button{
+    
+    font-size: x-large;
+    border: 2px solid;
+    cursor: pointer;
+    background-color: skyblue;
+    color: black;
+}
+.button{
+    margin-left: 12px;
+}
+.list{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    
+}
